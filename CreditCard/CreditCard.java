@@ -10,9 +10,11 @@ public double getBalance() {
 }
 
 public void removeMoney(double amount) {   
+    balance = balance - amount;
 }
 
 public void addMoney(double amount) {
+    balance = balance + amount;
 }
 
 public static void main(String[] args) {
